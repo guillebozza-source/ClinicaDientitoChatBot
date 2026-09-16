@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/help",
+      "destination": "https://www.chatbase.co/chatbot-iframe/YQbptghmdYQw1Gn22qZ_J"
+    }
+  ]
+}

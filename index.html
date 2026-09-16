@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Dental Sonrisas</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background-color: #f4f7f6; 
+      color: #333; 
+      margin: 0; 
+      padding: 40px; 
+      text-align: center; 
+    }
+    .container { 
+      max-width: 600px; 
+      margin: auto; 
+      background: white; 
+      padding: 30px; 
+      border-radius: 10px; 
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    }
+    h1 { color: #0070f3; }
+    p { font-size: 1.1rem; line-height: 1.5; }
+    .btn-help { 
+      display: inline-block; 
+      padding: 12px 24px; 
+      background: #0070f3; 
+      color: white; 
+      text-decoration: none; 
+      border-radius: 6px; 
+      margin-top: 20px; 
+      font-weight: bold; 
+      transition: background 0.2s;
+    }
+    .btn-help:hover { background: #0051a8; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Clínica Dental Sonrisas</h1>
+    <p>Bienvenido a nuestra clínica. Consultá a nuestro asistente virtual abajo a la derecha o visitá nuestro Centro de Ayuda en pantalla completa.</p>
+    
+    <!-- Botón visible hacia /help -->
+    <a href="/help" class="btn-help">Ir al Centro de Ayuda (/help)</a>
+  </div>
+
+  <!-- Script del Chatbot (Burbuja) -->
+  <script>
+    window.embeddedChatbotConfig = {
+      chatbotId: "YQbptghmdYQw1Gn22qZ_J",
+      domain: "www.chatbase.co"
+    }
+  </script>
+  <script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="YQbptghmdYQw1Gn22qZ_J"
+    domain="www.chatbase.co"
+    defer>
+  </script>
+</body>
+</html>
