@@ -1,8 +1,9 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/help",
-      "destination": "https://www.chatbase.co/chatbot-iframe/YQbptghmdYQw1Gn22qZ_J"
+      "destination": "https://www.chatbase.co/chatbot/YQbptghmdYQw1Gn22qZ_J",
+      "statusCode": 307
     }
   ]
 }
