@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/help",
-      "destination": "https://www.chatbase.co/chatbot/YQbptghmdYQw1Gn22qZ_J",
+      "destination": "https://www.chatbase.co/YQbptghmdYQw1Gn22qZ_J/help",
       "statusCode": 307
     }
   ]
